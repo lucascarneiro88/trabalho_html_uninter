@@ -1,0 +1,58 @@
+/* reset CSS */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Orbitron", sans-serif;
+    color: white;
+  }
+  
+  /* estilo global links */
+  a {
+    color: white;
+    text-decoration: none; /* remove o sublinhado dos links */
+    font-size: 25px; /*  tamanho da fonte dos links */
+    padding: 10px 20px; /*  espaçamento interno aos links */
+  }
+  
+  a:hover {
+    text-decoration: underline; /*  sublinhado ao passar o mouse */
+  }
+  
+  /* Estilo para o nav */
+  nav {
+    background-color: transparent;
+    padding: 80px; /* espaçamento interno do nav */
+  }
+  
+  /* estilo para o ul dentro do nav */
+  nav ul {
+    display: flex; /* Usa Flexbox para o ul */
+    justify-content: center; /* Centraliza o conteúdo do ul */
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 0; /* Remove o padding padrão do ul */
+    margin: 0; /* Remove a margem padrão do ul */
+  }
+  
+  /* estilo para os itens de lista dentro do ul */
+  nav ul li {
+    margin: 0 15px; /* espaçamento entre os itens de lista */
+  }
+  
+  /* estilo para h1 */
+  h1 {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* estilo para o parágrafo */
+  p {
+    text-align: center;
+    color: #39ff14; /* Verde neon */
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+  
