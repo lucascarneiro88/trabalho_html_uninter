@@ -2,19 +2,7 @@
     "version": 2,
     "builds": [
       {
-        "src": "public/index/index.html",
-        "use": "@vercel/static"
-      },
-      {
-        "src": "public/sobremim/sobremim.html",
-        "use": "@vercel/static"
-      },
-      {
-        "src": "public/formacao/formacao.html",
-        "use": "@vercel/static"
-      },
-      {
-        "src": "public/contato/contato.html",
+        "src": "public/**/*",
         "use": "@vercel/static"
       }
     ],
