@@ -1,85 +1,85 @@
 body {
-    font-family: 'Orbitron', sans-serif;
-    background-image: url("../img/background_contato2.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    min-height: 100vh;
-    color: white;
-  }
-  
-  h1 {
-    text-align: left; /* Alinha o título à esquerda */
-    margin-left: 100px; /* Ajusta a margem esquerda do título */
-    margin-top: 20px;
-  }
-  
-  #contato {
-    padding: 20px;
-  }
-  
-  .container {
-    min-width: 550px; /* largura mínima do contêiner */
-    margin: 0; /* Remove o margin automático */
-    padding: 20px;
-    background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro semi-transparente */
-    border-radius: 10px; /* Bordas arredondadas */
-    position: absolute;
-    left: 40px; /* distância da borda esquerda da página */
-    top: 300px; /* distância do topo */
-  }
-  
-  form {
-    display: flex;
-    flex-direction: column;
-  }
-  
-  form label {
-    margin-bottom: 5px;
-    font-size: 1.2rem;
-  }
-  
-  form input, form textarea {
-    padding: 10px;
-    margin-bottom: 15px;
-    border: none;
-    border-radius: 5px;
-    font-size: 1rem;
-  }
-  
-  form button {
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
-    background-color: #39ff14; 
-    color: white;
-    font-size: 1.2rem;
-    cursor: pointer;
-  }
-  
-  form button:hover {
-    background-color: #32c72f; /* Cor do botão ao passar o mouse */
-  }
-  
-  .links {
-    text-align: left; /* links à esquerda */
-    margin-top: 20px;
-  }
-  
-  .links a {
-    color: #39ff14;
-    text-decoration: none;
-    font-size: 1.2rem;
-    margin-right: 20px; /* espaçamento entre os links */
-  }
-  
-  .links a:hover {
-    text-decoration: underline;
-  }
-  
-  .success-message {
-    color: #39ff14;
-    margin-top: 20px;
-    text-align: center;
-  }
-  
+  font-family: "Orbitron", sans-serif;
+  background-image: url("../img/background_contato2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  min-height: 100vh;
+  color: white;
+}
+
+h1 {
+  text-align: left; /* Alinha o título à esquerda */
+  margin-left: 100px; /* Ajusta a margem esquerda do título */
+  margin-top: 20px;
+}
+
+#contato {
+  padding: 20px;
+}
+
+.container {
+  min-width: 550px; /* largura mínima do contêiner */
+  margin: 0; /* Remove o margin automático */
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.5); /* Fundo escuro semi-transparente */
+  border-radius: 10px; /* Bordas arredondadas */
+  position: absolute;
+  left: 40px; /* distância da borda esquerda da página */
+  top: 300px; /* distância do topo */
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+form label {
+  margin-bottom: 5px;
+  font-size: 1.2rem;
+}
+
+form input,
+form textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  border: none;
+  border-radius: 5px;
+  font-size: 1rem;
+}
+
+form button {
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  background-color: #39ff14;
+  color: white;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+
+form button:hover {
+  background-color: #32c72f; /* Cor do botão ao passar o mouse */
+}
+
+.links {
+  text-align: left; /* links à esquerda */
+  margin-top: 20px;
+}
+
+.links a {
+  color: #39ff14;
+  text-decoration: none;
+  font-size: 1.2rem;
+  margin-right: 20px; /* espaçamento entre os links */
+}
+
+.links a:hover {
+  text-decoration: underline;
+}
+
+.success-message {
+  color: #39ff14;
+  margin-top: 20px;
+  text-align: center;
+}
