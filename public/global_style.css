@@ -1,4 +1,4 @@
-/* CSS para estilizxação global */
+/* CSS para estilização global */
 
 /* reset CSS */
 * {
@@ -15,33 +15,33 @@ body {
 /* estilo global links */
 a {
   color: white;
-  text-decoration: none; /* remove o sublinhado dos links */
-  font-size: 25px; /*  tamanho da fonte dos links */
-  padding: 10px 20px; /*  espaçamento interno aos links */
+  text-decoration: none;
+  font-size: 25px;
+  padding: 10px 20px;
 }
 
 a:hover {
-  text-decoration: underline; /*  sublinhado ao passar o mouse */
+  text-decoration: underline;
 }
 
 /* Estilo para o nav */
 nav {
   background-color: transparent;
-  padding: 80px; /* espaçamento interno do nav */
+  padding: 80px;
 }
 
 /* estilo para o ul dentro do nav */
 nav ul {
-  display: flex; /* Usa Flexbox para o ul */
-  justify-content: center; /* Centraliza o conteúdo do ul */
-  list-style: none; /* Remove os marcadores da lista */
-  padding: 0; /* Remove o padding padrão do ul */
-  margin: 0; /* Remove a margem padrão do ul */
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 /* estilo para os itens de lista dentro do ul */
 nav ul li {
-  margin: 0 15px; /* espaçamento entre os itens de lista */
+  margin: 0 15px;
 }
 
 /* estilo para h1 */
@@ -56,4 +56,46 @@ p {
   color: #39ff14; /* Verde neon */
   font-size: 1.5rem;
   margin-top: 20px;
+}
+
+/*  Media Queries */
+@media (max-width: 768px) {
+  nav {
+    padding: 20px; /* padding do nav em telas menores */
+  }
+
+  nav ul {
+    flex-direction: column; /*  navegação vertical em telas menores */
+    align-items: center; /* centraliza os itens no eixo vertical */
+  }
+
+  a {
+    font-size: 20px; /*  tamanho da fonte dos links */
+    padding: 8px 10px; /* padding dos links */
+  }
+
+  h1 {
+    font-size: 2rem; /*  tamanho do título */
+    margin-top: 10px; /* espaço acima do título */
+  }
+
+  p {
+    font-size: 1.2rem; /*  tamanho do parágrafo */
+    margin-top: 10px; /*  espaço acima do parágrafo */
+  }
+}
+
+@media (max-width: 480px) {
+  a {
+    font-size: 18px; /* Reduz  o tamanho da fonte dos links */
+    padding: 5px 8px; /* padding  links para telas muito pequenas */
+  }
+
+  h1 {
+    font-size: 1.8rem; /*  tamanho do título para telas muito pequenas */
+  }
+
+  p {
+    font-size: 1rem; /* tamanho do parágrafo */
+  }
 }
