@@ -1,8 +1,8 @@
+/* estilo corpo pagina principal da aplicação */
 body {
-  font-family: "Orbitron", sans-serif; /* fonte principal da página como "Orbitron", com fallback para fontes sans-serif */
-  background-image: url("/public/img/background_home.png"); /* Define a imagem(Backgroundimg) de fundo da página */
-  background-size: cover; /* Faz a imagem de fundo cobrir toda a área visível, ajustando-a para preencher o espaço */
-  background-repeat: no-repeat; /* Impede que a imagem de fundo se repita */
-  background-position: center; /* Centraliza a imagem de fundo na página */
-  min-height: 100vh; /*Especifica altura mínima da página seja igual à altura total da janela do navegador */
+  background-image: url("/public/img/background_home.png"); /* define a imagem(Backgroundimg) de fundo da página */
+  background-size: cover; /* faz a imagem de fundo cobrir toda a área visível, ajustando-a para preencher o espaço */
+  background-repeat: no-repeat; /* impede que a imagem de fundo se repita */
+  background-position: center; /* centraliza a imagem de fundo na página */
+  min-height: 100vh; /*especifica altura mínima da página seja igual à altura total da janela do navegador */
 }

@@ -1,23 +1,25 @@
+/* estilo corpo da página de contato */
 body {
-  font-family: "Orbitron", sans-serif;
   background-image: url("../img/background_contato2.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   min-height: 100vh;
-  color: white;
 }
 
+/* estilo para h1 desta pagina */
 h1 {
   text-align: left;
   margin-left: 100px;
   margin-top: 20px;
 }
 
+/* estilo seção contato */
 #contato {
   padding: 20px;
 }
 
+/* estilo conteiner*/
 .container {
   min-width: 550px;
   margin: 0;
@@ -29,17 +31,19 @@ h1 {
   top: 300px;
 }
 
-/* Form */
+/* estilo Formulario contato */
 form {
   display: flex;
   flex-direction: column;
 }
 
+/* estilo  campos do formulário */
 form label {
   margin-bottom: 5px;
   font-size: 1.2rem;
 }
 
+/* estilo campos  input e textarea do formulário */
 form input,
 form textarea {
   padding: 10px;
@@ -49,6 +53,7 @@ form textarea {
   font-size: 1rem;
 }
 
+/* estilo botão de envio do formulário */
 form button {
   padding: 10px;
   border: none;
@@ -59,15 +64,18 @@ form button {
   cursor: pointer;
 }
 
+/* estilo botão de envio quando o mouse está sobre ele */
 form button:hover {
   background-color: #32c72f;
 }
 
+/* estilo seção de links das redes sociais */
 .links {
   text-align: left;
   margin-top: 20px;
 }
 
+/* estilo  links dentro da seção de redes sociais */
 .links a {
   color: #39ff14;
   text-decoration: none;
@@ -75,10 +83,12 @@ form button:hover {
   margin-right: 20px;
 }
 
+/* estilo links redes sociais ao passar o mouse */
 .links a:hover {
   text-decoration: underline;
 }
 
+/* estilo mensagem de sucesso */
 .success-message {
   color: #39ff14;
   margin-top: 20px;
